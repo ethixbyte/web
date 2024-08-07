@@ -1,11 +1,15 @@
 import { Box, Typography } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-
+import Head from 'next/head';
 const ContactUs = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Contact information" />
+          <title>Connect With US</title>
+      </Head>
       <header className="text-red-500 mt-9  font-bold text-2xl text-center">
         <Typography variant="h4" gutterBottom>
           <span className="font-luckiest">Connect With US </span>

@@ -1,10 +1,15 @@
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
+import Head from 'next/head';
 const News = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
 
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Meet NILA - Virtual Assistant" />
+          <title>Newsroom</title>
+      </Head>
       <header className="text-red-500 mt-9  font-bold text-2xl text-center">
         <Typography variant="h4" gutterBottom>
           <span className="font-luckiest">Newsroom </span>

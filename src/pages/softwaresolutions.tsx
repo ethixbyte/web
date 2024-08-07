@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-
+import Head from 'next/head';
 import TabsDesign from "./tabsdesign";
 
 const SofSolutions = () => {
@@ -7,6 +7,10 @@ const SofSolutions = () => {
 
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Our Solution Strategies" />
+          <title>Software Solutions</title>
+      </Head>
       <header className="text-red-500 mt-10 text-center">
         <Typography gutterBottom variant="h4">
           <span className="font-luckiest"> Software Solutions </span>

@@ -1,9 +1,14 @@
 import { Box, Typography } from "@mui/material";
+import Head from 'next/head';
 
 const DataIntegration = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Our Success Strategies" />
+          <title>Elevating Success</title>
+      </Head>
       <header className="text-red-500 mt-10 text-center">
         <Typography variant="h4" gutterBottom>
           <span className="font-luckiest">Elevating Success</span>

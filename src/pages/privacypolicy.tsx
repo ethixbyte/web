@@ -1,11 +1,15 @@
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
-
+import Head from 'next/head';
 const PrivacyPolicy = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
 
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Our Privacy Policy" />
+          <title>Privacy Policy</title>
+      </Head>
       <main className="mx-6 py-10 items-center justify-center">
         <header className="text-red-500 mt-2.5 font-bold text-2xl text-center">
           <Typography variant="h4" gutterBottom>

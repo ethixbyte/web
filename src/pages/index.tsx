@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import Link from 'next/link';
-
+import Head from 'next/head';
 const Homepage = () => {
     const buttonStyles = {
       backgroundColor: '#2563EB',
@@ -15,6 +15,10 @@ const Homepage = () => {
     const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
     return (
       <Box>
+        <Head>
+          <meta name="description" content="Our Future Ready Solutions" />
+          <title>Homepage</title>
+      </Head>
         <header className=" h-auto flex flex-col items-center justify-center">
           <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
             Ready to Level Up?

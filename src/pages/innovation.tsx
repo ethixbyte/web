@@ -1,9 +1,13 @@
 import { Box, Typography } from "@mui/material";
-
+import Head from 'next/head';
 const PioneeringSolutions = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Innovation is our Strength" />
+          <title>Innovation</title>
+      </Head>
       <header className="text-red-500 mt-10 text-center">
         <Typography variant="h4" gutterBottom>
           <span className="font-luckiest">Innovation At Every Turn</span>

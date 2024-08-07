@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useState } from "react";
 import Image from "next/image";
-
+import Head from 'next/head';
 const Aboutus = () => {
   const [activeTab, setActiveTab] = useState(1);
 
@@ -13,6 +13,10 @@ const Aboutus = () => {
 
   return (
     <Box>
+      <Head>
+          <meta name="description" content="Our Key Strategies" />
+          <title>Discover US</title>
+      </Head>
       <header className="text-red-500 mt-10 text-center">
         <Typography variant="h4" gutterBottom>
           <span className="font-luckiest">Discover US</span>
