@@ -19,6 +19,7 @@ const Homepage = () => {
         <Head>
           <meta name="description" content="Our Future Ready Solutions" />
           <title>Homepage</title>
+          <link rel='preload' href={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`} as="image" />
       </Head>
         <header className=" h-auto flex flex-col items-center justify-center">
           <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
@@ -48,6 +49,7 @@ const Homepage = () => {
                   loading="lazy"
                   width={2597}
                   height={1869}
+                  layout='responsive'
                   className="h-auto w-full"
                 />
               </picture>
