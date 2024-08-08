@@ -20,6 +20,8 @@ const Homepage = () => {
           <meta name="description" content="Our Future Ready Solutions" />
           <title>Homepage</title>
           <link rel='preload' href={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`} as="image" />
+          <link rel='preload' href={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`} as="image" />
+          <link rel='preload' href={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`} as="image" />
       </Head>
         <header className=" h-auto flex flex-col items-center justify-center">
           <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
@@ -88,6 +90,7 @@ const Homepage = () => {
                   alt="Integrating Elements"
                   width={605}
                   height={578}
+                  layout='responsive'
                   title="Integrating elements"
                   className="h-auto w-full"
                 />
@@ -125,10 +128,11 @@ const Homepage = () => {
                   media="(min-width: 768px)"/>
                
                 <Image
-                  src={`${BASE_URL}c_crop,h_578,w_605/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
+                  src={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`}
                   alt="Software Solutions"
                   width={605}
                   height={578}
+                  layout='responsive'
                   title="Software Solutions"
                   className="h-auto w-full"
                 />
