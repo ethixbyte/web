@@ -34,27 +34,7 @@ const Homepage = () => {
         <main>
           <section className="flex flex-col md:flex-row-reverse items-center justify-center bg-hero-idea-wave bg-no-repeat bg-cover">
             <article className="md:w-1/2 p-4">
-              {/* <picture>
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722844561/hero-idea_l96tfr_znkohb.webp`}
-                  media="(min-width: 640px)"/>
-               
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_800,w_800/v1722270347/hero-idea_l96tfr_tskbl4.webp`}
-                  media="(min-width: 768px)"/>
-               
-  
-                <Image
-                  src={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`}
-                  alt="Innovation"
-                  title="Innovation"
-                  loading="lazy"
-                  width={2597}
-                  height={1869}
-                  layout='responsive'
-                  className="h-auto w-full"
-                />
-              </picture> */}
+              
               <Image
                 src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722844561/hero-idea_l96tfr_znkohb.webp`}
                 alt="Innovation"
@@ -85,25 +65,7 @@ const Homepage = () => {
           </section>
           <section className="flex flex-col md:flex-row items-center justify-center  bg-gradient-to-b from-[#ffffff] via-[#cce7f8] to-[#ffffff]">
             <article className="md:w-1/2 p-4 ">
-              {/* <picture>
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722268583/integration_vmkpzr_llgchb.webp`}
-                  media="(min-width: 640px)"/>
-               
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_800,w_800/v1722268583/integration_vmkpzr_llgchb.webp`}
-                  media="(min-width: 768px)"/>
-               
-                <Image
-                  src={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`}
-                  alt="Integrating Elements"
-                  width={605}
-                  height={578}
-                  layout='responsive'
-                  title="Integrating elements"
-                  className="h-auto w-full"
-                />
-              </picture> */}
+              
               <Image
                   src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722268583/integration_vmkpzr_llgchb.webp`}
                   alt="Integrating Elements"
@@ -135,25 +97,7 @@ const Homepage = () => {
   
           <section className="flex flex-col md:flex-row-reverse items-center justify-center">
             <article className="md:w-1/2 p-4">
-              {/* <picture>
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
-                  media="(min-width: 640px)"/>
-               
-                <source
-                  srcSet={`${BASE_URL}c_pad,h_800,w_800/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
-                  media="(min-width: 768px)"/>
-               
-                <Image
-                  src={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`}
-                  alt="Software Solutions"
-                  width={605}
-                  height={578}
-                  layout='responsive'
-                  title="Software Solutions"
-                  className="h-auto w-full"
-                />
-              </picture> */}
+              
               <Image
                 src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
                 alt="Software Solutions"
