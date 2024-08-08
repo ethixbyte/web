@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 const Homepage = () => {
     const buttonStyles = {
       backgroundColor: '#2563EB',
@@ -40,7 +41,7 @@ const Homepage = () => {
                   media="(min-width: 768px)"/>
                
   
-                <img
+                <Image
                   src={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`}
                   alt="Innovation"
                   title="Innovation"
@@ -80,7 +81,7 @@ const Homepage = () => {
                   srcSet={`${BASE_URL}c_pad,h_800,w_800/v1722268583/integration_vmkpzr_llgchb.webp`}
                   media="(min-width: 768px)"/>
                
-                <img
+                <Image
                   src={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`}
                   alt="Integrating Elements"
                   width={605}
@@ -121,11 +122,11 @@ const Homepage = () => {
                   srcSet={`${BASE_URL}c_pad,h_800,w_800/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
                   media="(min-width: 768px)"/>
                
-                <img
-                  src={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`}
+                <Image
+                  src={`${BASE_URL}c_crop,h_578,w_605/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
                   alt="Software Solutions"
-                  width={734}
-                  height={520}
+                  width={605}
+                  height={578}
                   title="Software Solutions"
                   className="h-auto w-full"
                 />

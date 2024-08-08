@@ -21,11 +21,11 @@ const ParentFooter = () => {
                 title="Facebook"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1717769595/1_Facebook_colored_svg_copy-128_rmovvr.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/1_Facebook_colored_svg_copy-128_rmovvr.webp`}
                   alt="facebook"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                 />
               </a>
 
@@ -36,11 +36,11 @@ const ParentFooter = () => {
                 title="Instagram"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1717770476/2018_social_media_popular_app_logo_instagram-128_h18pey.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1717770476/2018_social_media_popular_app_logo_instagram-128_h18pey.webp`}
                   alt="instagram"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                   title=""
                 />
               </a>
@@ -51,11 +51,11 @@ const ParentFooter = () => {
                 title="LinkedIn"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1717769595/circle-linkedin-128_vcyytu.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/circle-linkedin-128_vcyytu.webp`}
                   alt="linkedin"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                   title=""
                 />
               </a>
@@ -66,11 +66,11 @@ const ParentFooter = () => {
                 title="Twitter"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1717769595/X-128_wgthxs.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/X-128_wgthxs.webp`}
                   alt="twitter"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                   title=""
                 />
               </a>
@@ -82,11 +82,11 @@ const ParentFooter = () => {
                 title="Youtube"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1717769596/youtube-128_rx7btk.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769596/youtube-128_rx7btk.webp`}
                   alt="youtube"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                   title=""
                 />
               </a>
@@ -98,11 +98,11 @@ const ParentFooter = () => {
                 title="WhatsApp"
               >
                 <Image
-                  className="rounded-t-lg h-5 w-5"
-                  src={`${BASE_URL}v1722848568/5296520_bubble_chat_mobile_whatsapp_whatsapp_logo_icon_i597m8.webp`}
+                  className="rounded-t-lg"
+                  src={`${BASE_URL}c_pad,h_32,w_32/v1722848568/5296520_bubble_chat_mobile_whatsapp_whatsapp_logo_icon_i597m8.webp`}
                   alt="whatsapp"
-                  width={128}
-                  height={128}
+                  width={32}
+                  height={32}
                   title=""
                 />
               </a>
