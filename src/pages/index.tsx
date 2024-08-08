@@ -22,6 +22,7 @@ const Homepage = () => {
           <link rel='preload' href={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`} as="image" />
           <link rel='preload' href={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`} as="image" />
           <link rel='preload' href={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`} as="image" />
+          <meta name="keywords" content="software company, ethixbyte, ethixbyte llp, software company in chennai"/>
       </Head>
         <header className=" h-auto flex flex-col items-center justify-center">
           <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
