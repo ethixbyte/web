@@ -13,7 +13,7 @@ const ParentFooter = () => {
             <section className="mr-12 hidden lg:block">
               <span>Get connected with us on social networks:</span>
             </section>
-            <section className="flex justify-center">
+            <section className="flex justify-center gap-4 sm:gap-6">
               <a
                 href="https://www.facebook.com/profile.php?id=61555244726994"
                 target="_blank"
