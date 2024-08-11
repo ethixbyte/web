@@ -2,6 +2,12 @@ import Footer from "./footer";
 import { Typography } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import XIcon from '@mui/icons-material/X';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const ParentFooter = () => {
   const BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
@@ -20,13 +26,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="Facebook"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/1_Facebook_colored_svg_copy-128_rmovvr.webp`}
-                  alt="facebook"
-                  width={32}
-                  height={32}
-                />
+                <FacebookIcon/>
               </a>
 
               <a
@@ -35,14 +35,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="Instagram"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1717770476/2018_social_media_popular_app_logo_instagram-128_h18pey.webp`}
-                  alt="instagram"
-                  width={32}
-                  height={32}
-                  title=""
-                />
+                <InstagramIcon/>
               </a>
               <a
                 href="https://www.linkedin.com/company/ethixbyte/?"
@@ -50,14 +43,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="LinkedIn"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/circle-linkedin-128_vcyytu.webp`}
-                  alt="linkedin"
-                  width={32}
-                  height={32}
-                  title=""
-                />
+                <LinkedInIcon/>
               </a>
               <a
                 href="https://twitter.com/ethixbytellp"
@@ -65,14 +51,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="Twitter"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769595/X-128_wgthxs.webp`}
-                  alt="twitter"
-                  width={32}
-                  height={32}
-                  title=""
-                />
+                <XIcon/>
               </a>
 
               <a
@@ -81,14 +60,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="Youtube"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1717769596/youtube-128_rx7btk.webp`}
-                  alt="youtube"
-                  width={32}
-                  height={32}
-                  title=""
-                />
+                <YouTubeIcon/>
               </a>
 
               <a
@@ -97,14 +69,7 @@ const ParentFooter = () => {
                 className="mr-6 hover:scale-125 transition"
                 title="WhatsApp"
               >
-                <Image
-                  className="rounded-t-lg"
-                  src={`${BASE_URL}c_pad,h_32,w_32/v1722848568/5296520_bubble_chat_mobile_whatsapp_whatsapp_logo_icon_i597m8.webp`}
-                  alt="whatsapp"
-                  width={32}
-                  height={32}
-                  title=""
-                />
+                <WhatsAppIcon/>
               </a>
             </section>
           </section>
