@@ -37,13 +37,10 @@ const Homepage = () => {
             <article className="md:w-1/2 p-4">
               
               <Image
-                src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722844561/hero-idea_l96tfr_znkohb.webp`}
+                src={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`}
                 alt="Innovation"
                 width={2597}
                 height={1869}
-                layout="responsive"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                priority // Important for LCP images
               />
             </article>
             <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
@@ -68,12 +65,10 @@ const Homepage = () => {
             <article className="md:w-1/2 p-4 ">
               
               <Image
-                  src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722268583/integration_vmkpzr_llgchb.webp`}
+                  src={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`}
                   alt="Integrating Elements"
                   width={605}
                   height={578}
-                  layout="responsive"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
             </article>
             <article className="md:w-1/2 p-4 h-auto flex flex-col items-center justify-center">
@@ -100,12 +95,10 @@ const Homepage = () => {
             <article className="md:w-1/2 p-4">
               
               <Image
-                src={`${BASE_URL}c_fill,q_auto,f_auto,w_1200/v1722268915/software-solutions_sg4ykl_enuznp.webp`}
+                src={`${BASE_URL}v1722268915/software-solutions_sg4ykl_enuznp.webp`}
                 alt="Software Solutions"
-                width={605}
-                height={578}
-                layout="responsive"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                width={734}
+                height={520}
               />
             </article>
             <article className="md:w-1/2 p-4 h-auto flex flex-col items-center justify-center">
