@@ -33,14 +33,14 @@ const Homepage = () => {
           </p>
         </header>
         <main>
-          <section className="flex flex-col md:flex-row-reverse items-center justify-center bg-hero-idea-wave bg-no-repeat bg-cover">
+          <section className="flex flex-col md:flex-row-reverse items-center justify-center bg-hero-idea-wave bg-no-repeat bg-cover h-[33rem]">
             <article className="md:w-1/2 p-4">
               
               <Image
-                src={`${BASE_URL}v1722844561/hero-idea_l96tfr_znkohb.webp`}
+                src={`${BASE_URL}c_pad,h_520,w_734/v1722844561/hero-idea_l96tfr_znkohb.webp`}
                 alt="Innovation"
-                width={2597}
-                height={1869}
+                width={734}
+                height={520}
               />
             </article>
             <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
@@ -52,7 +52,7 @@ const Homepage = () => {
               </p>
               <Link href="/innovation">
                 <button
-                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded"
+                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded-2xl"
                   id="pioneering-solutions"
                   aria-label="Pioneering"
                 >
@@ -61,14 +61,14 @@ const Homepage = () => {
               </Link>
             </article>
           </section>
-          <section className="flex flex-col md:flex-row items-center justify-center  bg-gradient-to-b from-[#ffffff] via-[#cce7f8] to-[#ffffff]">
+          <section className="flex flex-col md:flex-row items-center justify-center  bg-gradient-to-b from-[#ffffff] via-[#cce7f8] to-[#ffffff] h-[33rem]">
             <article className="md:w-1/2 p-4 ">
               
               <Image
-                  src={`${BASE_URL}v1722268583/integration_vmkpzr_llgchb.webp`}
+                  src={`${BASE_URL}c_pad,h_520,w_734/v1722268583/integration_vmkpzr_llgchb.webp`}
                   alt="Integrating Elements"
-                  width={605}
-                  height={578}
+                  width={734}
+                  height={520}
                 />
             </article>
             <article className="md:w-1/2 p-4 h-auto flex flex-col items-center justify-center">
@@ -81,7 +81,7 @@ const Homepage = () => {
   
               <Link href="/businessapproach">
                 <button
-                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded"
+                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded-2xl"
                   id="elevating-success"
                   aria-label="Success"
                 >
@@ -91,7 +91,7 @@ const Homepage = () => {
             </article>
           </section>
   
-          <section className="flex flex-col md:flex-row-reverse items-center justify-center">
+          <section className="flex flex-col md:flex-row-reverse items-center justify-center h-[33rem]">
             <article className="md:w-1/2 p-4">
               
               <Image
@@ -110,7 +110,7 @@ const Homepage = () => {
               </p>
               <Link href="/softwaresolutions">
                 <button
-                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded"
+                  className="bg-button-color hover:bg-second-color text-white font-bold py-2 px-4 rounded-2xl"
                   id="soft-solutions"
                   aria-label="Solutions"
                 >

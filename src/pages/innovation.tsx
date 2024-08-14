@@ -14,8 +14,8 @@ const PioneeringSolutions = () => {
         </Typography>
       </header>
       <main>
-        <article className="flex flex-col md:flex-row items-center justify-center">
-          <section className="md:w-1/2">
+        <section className="flex flex-col md:flex-row items-center justify-center">
+          <article className="md:w-1/2">
             <picture>
               <source
                 srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722442405/Innovation_o1gsgo_a0pl2k.webp`}
@@ -32,8 +32,8 @@ const PioneeringSolutions = () => {
                 title="Innovation"
               />
             </picture>
-          </section>
-          <section className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
+          </article>
+          <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
             <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
               Innovation
             </h2>
@@ -45,10 +45,10 @@ const PioneeringSolutions = () => {
               boundaries and creating groundbreaking solutions that make a
               tangible impact on the world.
             </p>
-          </section>
-        </article>
-        <article className="flex flex-col md:flex-row-reverse items-center justify-center">
-          <section className="md:w-1/2">
+          </article>
+        </section>
+        <section className="flex flex-col md:flex-row-reverse items-center justify-center bg-gradient-to-b from-[#ffffff] via-[#cce7f8] to-[#ffffff]">
+          <article className="md:w-1/2">
             <picture>
               <source
                 srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722442190/embrace_future_wwqw8b_cnkk7c.webp`}
@@ -65,8 +65,8 @@ const PioneeringSolutions = () => {
                 title="Embracing future"
               />
             </picture>
-          </section>
-          <section className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
+          </article>
+          <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
             <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
               Embracing the Future
             </h2>
@@ -77,10 +77,10 @@ const PioneeringSolutions = () => {
               approach ensures that our innovations remain relevant and
               adaptable in an ever-changing landscape.
             </p>
-          </section>
-        </article>
-        <article className="flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-[#ffffff] via-[#cce7f8] to-[#ffffff]">
-          <section className="md:w-1/2">
+          </article>
+        </section>
+        <section className="flex flex-col md:flex-row items-center justify-center">
+          <article className="md:w-1/2">
             <picture>
               <source
                 srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722442240/customer_centric_wrk0as_c1zjyk.webp`}
@@ -97,23 +97,23 @@ const PioneeringSolutions = () => {
                 title="Customer Centric"
               />
             </picture>
-          </section>
-          <section className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
+          </article>
+          <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
             <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
               Customer-Centric Solutions
             </h2>
             <p className="text-sm sm:text-sm md:text-base lg:text-lg text-second-color my-4 pl-5">
               {" "}
-              Our innovation isn’t driven solely by technology; it’s rooted in
+              Our innovation isn&apos;t driven solely by technology; it&apos;s rooted in
               understanding and addressing the evolving needs of our customers.
               By placing their requirements at the heart of our development
               process, we create solutions that are intuitive, efficient, and
               truly impactful.
             </p>
-          </section>
-        </article>
-        <article className="flex flex-col md:flex-row-reverse items-center justify-center">
-          <section className="md:w-1/2">
+          </article>
+        </section>
+        <section className="flex flex-col md:flex-row-reverse items-center justify-center bg-gradient-to-b from-[#ffffff] via-[#e9d5ff] to-[#ffffff]">
+          <article className="md:w-1/2">
             <picture>
               <source
                 srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722442281/continous_improvement_l35zkb_lhtbuw.webp`}
@@ -130,8 +130,8 @@ const PioneeringSolutions = () => {
                 title="Continous Improvement"
               />
             </picture>
-          </section>
-          <section className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
+          </article>
+          <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
             <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
               Continuous Improvement
             </h2>
@@ -143,10 +143,10 @@ const PioneeringSolutions = () => {
               improvement drives us to stay adaptable and evolve alongside the
               ever-changing landscape.
             </p>
-          </section>
-        </article>
-        <article className="flex flex-col md:flex-row items-center justify-center">
-          <section className="md:w-1/2">
+          </article>
+        </section>
+        <section className="flex flex-col md:flex-row items-center justify-center">
+          <article className="md:w-1/2">
             <picture>
               <source
                 srcSet={`${BASE_URL}c_pad,h_480,w_650/v1722442334/innovative_solutions_ctza88_nceh0g.webp`}
@@ -163,8 +163,8 @@ const PioneeringSolutions = () => {
                 title="Transforming Industries"
               />
             </picture>
-          </section>
-          <section className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
+          </article>
+          <article className="md:w-1/2 p-4  h-auto flex flex-col items-center justify-center">
             <h2 className="text-xl  md:text-3xl lg:text-4xl font-bold text-second-color">
               Transforming Industries
             </h2>
@@ -175,8 +175,8 @@ const PioneeringSolutions = () => {
               possibilities, we strive to leave a lasting impact, not only
               within our company but across the sectors we operate in.{" "}
             </p>
-          </section>
-        </article>
+          </article>
+        </section>
       </main>
     </Box>
   );
