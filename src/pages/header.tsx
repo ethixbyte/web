@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import CloseIcon from "@mui/icons-material/Close";
+import HomeIcon from '@mui/icons-material/Home';
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,37 +58,43 @@ const Header = () => {
           </button>
 
           <Link href="/" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <HomeIcon className="mr-2"/>
               Homepage
             </span>
           </Link>
 
           <Link href="/discoverus" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <SearchIcon className="mr-2"/>
               Discover
             </span>
           </Link>
 
           <Link href="/innovation" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
-              Pioneering Solutions
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <LightbulbIcon className="mr-2"/>
+              Innovation
             </span>
           </Link>
 
           <Link href="/businessapproach" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
-              Elevating Success
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <ArrowUpwardIcon className="mr-2"/>
+              Empower
             </span>
           </Link>
 
           <Link href="/softwaresolutions" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
-              Software Solutions
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <AllInclusiveIcon className="mr-2"/>
+              Nexus
             </span>
           </Link>
 
           <Link href="/news" onClick={toggleSidebar}>
-            <span className="p-4 block hover:animate-pulse hover:shadow-xl">
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <NewspaperIcon className="mr-2"/>
               Newsroom
             </span>
           </Link>
