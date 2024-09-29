@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
   return (
     <Box>
       <Head>
-          <meta name="description" content="Our Privacy Policy" />
+          <meta name="description" content="Ethixbyte Privacy Policy" />
           <title>Privacy Policy</title>
       </Head>
       <main className="mx-6 py-10 items-center justify-center">
