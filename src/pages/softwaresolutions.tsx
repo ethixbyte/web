@@ -8,7 +8,7 @@ const SofSolutions = () => {
   return (
     <Box>
       <Head>
-          <meta name="description" content="Our Solution Strategies" />
+          <meta name="description" content="Ethixbyte Solution Strategies" />
           <title>Software Solutions</title>
       </Head>
       <header className="text-red-500 mt-10 text-center">

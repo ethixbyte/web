@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
   return (
     <Box>
        <Head>
-          <meta name="description" content="Our Terms of use" />
+          <meta name="description" content="Ethixbyte Terms of use" />
           <title>Terms of Use</title>
       </Head>
       <main className="mx-6 py-10 items-center justify-center">

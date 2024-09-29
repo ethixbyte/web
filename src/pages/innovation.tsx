@@ -5,7 +5,7 @@ const PioneeringSolutions = () => {
   return (
     <Box>
       <Head>
-          <meta name="description" content="Innovation is our Strength" />
+          <meta name="description" content="Innovation is Ethixbyte Strength" />
           <title>Innovation</title>
       </Head>
       <header className="text-red-500 mt-10 text-center">

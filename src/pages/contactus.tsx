@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <Box>
       <Head>
-          <meta name="description" content="Contact information" />
+          <meta name="description" content="Ethixbyte Contact information" />
           <title>Connect With US</title>
       </Head>
       <header className="text-red-500 mt-9  font-bold text-2xl text-center">
