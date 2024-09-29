@@ -8,6 +8,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import SearchIcon from '@mui/icons-material/Search';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -89,6 +90,13 @@ const Header = () => {
             <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
               <AllInclusiveIcon className="mr-2"/>
               Nexus
+            </span>
+          </Link>
+
+          <Link href="/ethicare" onClick={toggleSidebar}>
+            <span className="p-4 block hover:bg-white hover:text-second-color hover:animate-pulse  hover:rounded-lg">
+              <VolunteerActivismIcon className="mr-2"/>
+              Ethicare
             </span>
           </Link>
 
