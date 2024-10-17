@@ -14,7 +14,7 @@ const Aboutus = () => {
   return (
     <Box>
       <Head>
-          <meta name="description" content="Ethixbyte Key Strategies" />
+          <meta name="description" content="Ethixbyte Key Strategies " />
           <title>Discover US</title>
       </Head>
       <header className="text-red-500 mt-10 text-center">
